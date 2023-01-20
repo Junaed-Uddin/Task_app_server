@@ -25,7 +25,7 @@ async function dbConnect() {
 dbConnect();
 
 //Collections
-const StoredTasks = client.db("my_app").collection("StoredTasks");
+const StoredTasks = client.db("myApp").collection("StoredTasks");
 
 //post data
 app.post('/addTasks', async (req, res) => {
